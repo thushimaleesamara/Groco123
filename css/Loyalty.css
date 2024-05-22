@@ -1,0 +1,112 @@
+
+body {
+    font-family: poppins;
+    background-color: #f4f4f4;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    align-items: center;
+}
+
+
+.container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    margin: auto;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input, select {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #28a745;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+.loyalty-heading{
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2em;
+}
+
+#loyalty {
+    margin: 0 15em;
+    text-align: justify;
+    position: relative;
+}
+
+.header {
+    margin-bottom: 2em;
+}
+
+.silver {
+    margin-top: 2em;
+}
+
+.bronze {
+    margin-top: 2em;
+}
+
+.loyalty {
+    margin-left: 3em;
+    list-style-type: circle;
+} 
+
+.loyalty-card {
+    position: absolute;
+    right: 0;
+    top: 100px;
+    left: 500px;
+}
+
+@media (max-width:768px){
+    #loyalty{
+        margin: 0 5em;
+        width: 500px;
+    }
+
+    .loyalty-card {
+        position: initial;
+        margin-left: 0;
+        width: 400px;
+        margin-top: 5em;
+    }
+
+    .container {
+        margin: 0 6em;
+        width: 500px
+    }
+}

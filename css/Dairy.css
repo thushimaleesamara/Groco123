@@ -1,0 +1,127 @@
+/*Diary product section*/
+
+.product-heading {
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: 600;
+} 
+
+/*Dairy product-banner*/
+#Dairy-banner{
+    width: 1205px;
+    height: 550px;
+    border-radius: 30px;
+    background-color:#fae1dd;;
+    margin: 10px auto;
+    position: relative;
+    overflow: hidden;
+    background-image: url("../images/Dairy\ banner.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom right;
+    padding: 20px;
+}
+
+
+.Category-heading {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+section.product-grid {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.product-col {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.product-col .flex-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.product-col {
+    width: 25%;
+    margin-bottom: 40px;
+}
+product-col .flex-container h3 {
+    text-align: center;
+}
+
+section.product-grid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ 
+.flex-container{
+    display: flex;
+    align-items: center;
+
+}
+.box{
+    display: flex;
+    justify-content: space-between;
+   
+}
+.box-container{
+    margin-left: 40px;
+    margin-right: 40px;
+    display: flex;
+   justify-content: center;
+}
+.product-col {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.product-box .price{
+    margin-top: 10px;
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: #393939;
+}
+
+.product-grid .cart-btn {
+    width: 80%;
+    height: 40px;
+    background-color: #fae1dd;
+    color: #e2711d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    transition: all ease 0.3s;
+}
+.product-grid .cart-btn i{
+    margin-right: 10px;
+
+}
+.product-grid .cart-btn:hover{
+    background-color: #e2711d;
+    color: #ffffff;
+    transition: all ease 0.3s;
+}
+
+.Available p {
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.Available  ul li {
+    list-style-type: circle;
+    list-style-position: inside;
+    text-align: left;
+    margin-left: 150px;
+}
+.Available h3{
+    text-align: left;
+    margin-left: 150px;
+}
+
+

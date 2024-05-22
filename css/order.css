@@ -1,0 +1,136 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:  poppins;
+}
+.body .card{
+    
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 100px;
+}
+
+.card{
+    width: 65rem;
+    border-radius: 7px;
+    padding: 20px;
+    background-color: #ffff;
+    box-shadow: rgb(0,0,0,0.24) 0px 3px 8px;
+    margin: auto;
+}
+.card .body{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 2.5rem  ;
+}    
+.section-title{
+    font-size: 23px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+.box{
+    margin: 10px 0;
+}
+.labal{
+    display: block;
+    margin-bottom: 5px;
+    font-size: 16px;
+    font-weight: 600;
+}
+.input{
+    width: 100%;
+    font-size: 10px;
+    padding: 7px;
+    border: 1px solid #ccc;
+    outline: none;
+    transform: 0.5s;
+}
+.input :focus{
+    border-color: #2f3e46;
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 30px;
+
+}
+.img-cards{
+    width: 35%;
+    height: 100%;
+    padding: 2px;
+
+}
+.button{
+    width: 100%;
+    padding: 7px;
+    margin-top: 15px;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+    color: #fff;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    background-color: lightsalmon;
+    transition: all 0.3s ease;
+}
+.button:hover{
+    background-color: #e2711d;
+}
+
+.cart-page{
+    margin: 60px auto;
+
+}
+table{
+    width:100%;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+
+}
+.cart-info{
+    display: flex;
+    flex-wrap:wrap;
+}
+th{
+    text-align: left;
+    padding: 8px;
+    color: #fff;
+    background: #e2711d;
+    font-weight: normal;
+   
+}
+td{
+    padding:10px 5px;
+}
+td input{
+    width:40px;
+    height: 30px;
+    padding: 5px;
+}
+td a{
+    color: #ff523b;
+    font-size: 12px;
+}
+.small-container ,cart-page{
+    width: 80%;
+    margin: auto;
+}
+
+.total-price{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.total-price table{
+    border-top: 3px solid #ff523b;
+    width: 100%;
+    max-width: 350px;
+}

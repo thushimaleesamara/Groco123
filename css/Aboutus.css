@@ -1,0 +1,101 @@
+
+
+#Aboutus-banner{
+    width: 1205px;
+    height: 550px;
+    border-radius: 30px;
+    background-color:#fae1dd;;
+    margin: 10px auto;
+    position: relative;
+    overflow: hidden;
+    background-image: url("../images/About\ Gr.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom right;
+    padding: 20px;
+}
+.Aboutus-heading h3 {
+    text-align:center;
+    margin-left: 30px;
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+.Aboutus-heading p {
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+/*Groco Branches*/
+
+.branches-heading {
+    text-align:left;
+    margin-left: 30px;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.cover {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.box{
+    width: 600px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+} 
+
+/*Our Services*/
+.services {
+    text-align: center;
+    font-size: 28px;
+    margin-top: 20px;
+}
+
+.table-box{
+    margin:50px auto;
+}
+.table-cell ul li {
+    list-style-type: circle;
+    list-style-position: inside;
+    text-align: left;
+    margin-left: 50px;
+}
+
+.table-row{
+    display:table ;
+    width: 80%;
+    margin: 10px auto;
+    background: transparent;
+    padding: 12px 0;
+    color: #555;
+    font-size: 13px;
+    box-shadow: 0 1px 4px 0 rgba(0,0,50,0.3);
+    font-size: medium;
+}
+.table-cell{
+    display: table-cell;
+    width: 30%;
+    text-align: center;
+    padding: 4px 0;
+    border-right: 1px solid #d6d4d4;
+    vertical-align: middle;
+}
+.table-head{
+    background: #e2711d;
+    box-shadow: none;
+    color: #fff;
+    font-size: 20px;
+}
+
+@media(max-width: 800px){
+    .cover{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+}

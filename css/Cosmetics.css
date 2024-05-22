@@ -1,0 +1,88 @@
+
+
+.Skincare-heading {
+    text-align:center;
+    margin-left: 30px;
+    font-size: 1.8rem;
+    font-weight: 500;
+}
+/*Cosmetic product-banner*/
+#Cosmatic-banner{
+    width: 1205px;
+    height: 550px;
+    border-radius: 30px;
+    background-color:#fae1dd;;
+    margin: 10px auto;
+    position: relative;
+    overflow: hidden;
+    background-image: url("../images/skin\ banner.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom right;
+    padding: 20px;
+}
+
+.Cosmatics p {
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: large;
+}
+.table-row{
+    display:table ;
+    width: 80%;
+    margin: 10px auto;
+    background: transparent;
+    padding: 12px 0;
+    color: #555;
+    font-size: 13px;
+    box-shadow: 0 1px 4px 0 rgba(0,0,50,0.3);
+    font-size: medium;
+}
+.table-cell{
+    display: table-cell;
+    width: 30%;
+    text-align: center;
+    padding: 4px 0;
+    border-right: 1px solid #d6d4d4;
+    vertical-align: middle;
+}
+.table-box p{
+    margin-left: 20px;
+}
+
+.table-box .cart-btn{
+    width: 80%;
+    height: 40px;
+    background-color: #fae1dd;
+    color:#e2711d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 28px;
+    transition: all ease 0.3s;
+}
+.table-box .cart-btn i{
+    margin-right: 10px;
+
+}
+.table-box .cart-btn:hover{
+    background-color: #e2711d;
+    color: #ffffff;
+    transition: all ease 0.3s;
+}
+.About h3,
+p
+{
+    margin-top: 30px;
+    margin-left: 150px;
+}
+
+.About ul li {
+    list-style-type: circle;
+    list-style-position: inside;
+    text-align: left;
+    margin-left: 150px;
+}
+
