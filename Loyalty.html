@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loyalty Registration Form</title>
+    <link rel="stylesheet" href="./css/Loyalty.css">
+    <link rel="stylesheet" href="./css/index.css">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+
+   
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+
+</head>
+
+<header>
+
+    <!--Navigation-->
+   <nav class="navigation">
+
+        <a href="#" class="logo"> <i class="fas fa-shopping-basket"></i> Groco </a>
+            
+        <ul class="menu">
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./Aboutus.html">About Us</a></li>
+            <li><a href="./Loyalty.html">Loyality Registation</a></li>
+            <li><a href="./order.html">Order Now </a></li>
+        </ul>
+
+        <div class="right-nav">
+            
+            <a href="#" class="like">
+                <i class="far fa-heart"></i>
+                <span>0</span>
+            </a>
+            
+            <a href="./order.html" class="cart">
+                <i class="fas fa-shopping-cart"></i>
+                <span>0</span>
+            </a>
+        </div>
+        
+        
+    </nav>
+    </header>
+    
+    
+    <!--nav end-->
+<br>
+<br>
+<body>
+    <div class="container">
+        <h2>Loyalty Program Registration</h2>
+        <form action="/submit-form" method="post">
+            <!-- Customer Information Fields -->
+            <div class="form-group">
+                <label for="first-name">First Name</label>
+                <input type="text" id="first-name" name="first-name" required>
+            </div>
+            <div class="form-group">
+                <label for="last-name">Last Name</label>
+                <input type="text" id="last-name" name="last-name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="phone">Phone Number</label>
+                <input type="tel" id="phone" name="phone" required>
+            </div>
+            <div class="form-group">
+                <label for="birthdate">Date of Birth</label>
+                <input type="date" id="birthdate" name="birthdate" required>
+            </div>
+            <div class="form-group">
+                <label for="address">Address</label>
+                <input type="text" id="address" name="address" required>
+            </div>
+
+            <!-- Loyalty Scheme Selection -->
+            <div class="form-group">
+                <label for="loyalty-scheme">Loyalty Scheme</label>
+                <select id="loyalty-scheme" name="loyalty-scheme" required>
+                    <option value="">Select a scheme</option>
+                    <option value="gold">Gold Member</option>
+                    <option value="silver">Silver Member</option>
+                    <option value="bronze">Bronze Member</option>
+                </select>
+            </div>
+
+            <!-- Submit Button -->
+            <div class="form-group">
+                <button type="submit">Register</button>
+            </div>
+        </form>
+    </div>
+
+<section id="loyalty">
+    <div class=" loyalty-heading"></div>
+
+
+  
+    <h3 class="header">These are the benifits that you can provided from our loyalty program</h3>
+    <p>Gold Member Benefits:</p>
+
+    <ul class="loyalty">
+        <li>Priority customer service</li>
+        <li>Exclusive discounts up to 20%</li>  
+        <li>Free shipping on all orders</li>
+        <li>Access to VIP events and product launches</li> 
+        <li>Early access to new products and sales</li> 
+        <li>Special birthday gift</li>  
+
+    </ul>
+
+    <p class="silver">Silver Member Benefits:</p>
+    <ul class="loyalty">
+        <li>Exclusive discounts up to 15%</li>
+        <li>Free shipping on orders over $50</li>
+        <li> Early access to sales</li>
+        <li> Invitations to special events</li>
+        <li>Accumulation of reward points for every purchase</li>
+    </ul>
+
+   <p class="bronze">Bronze Member Benefits:</p>
+   <ul class="loyalty">
+    <li>Exclusive discounts up to 10%</li>
+    <li>Free shipping on orders over $100</li>
+    <li>Regular newsletters with special offers</li>
+    <li>Reward points for every purchase</li>
+   </ul>
+     
+<img class="loyalty-card" src="./images/loyalty.jpg" alt="loyalty card">      
+       
+       
+        
+    
+</section>
+
+<footer>
+    <div class="footer-container">
+        <div class="footer-logo">
+            <a href="#" class="logo"> <i class="fas fa-shopping-basket"></i> Groco </a>
+             <div class="footer-social">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+             </div>
+        </div>
+
+        
+        <div class="footer-links">
+            <strong>Category</strong>
+            <ul>
+                <li><a href="#">Fruits</a></li>
+                <li><a href="#">Vegetables</a></li>
+                <li><a href="#">Dairy Products</a></li>
+                <li><a href="#">Cosmatics</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-links">
+            <strong>Contact</strong>
+            <ul>
+                <li><a href="#">Phone +123456789</a></li>
+                <li><a href="#">Email groco@gmail.com</a></li>
+                
+                
+            </ul>
+        </div>
+    </div>
+</footer>
+
+
+</body>
+</html>
